@@ -1,0 +1,29 @@
+id - calculator(div.row x 4)
+    // rows -> buttons (div)
+        -> div.button -> .number or .operator
+        // might need to use classList.contains (determine what i clicked)
+    // row(4) -> number, operator, equals
+
+// general goal
+1. As a user, I want to be able to select numbers so that I can perform operations with them.
+
+
+// features for operations
+2. As a user, I want to be able to add two numbers together.
+// add
+
+
+
+
+
+
+3. As a user, I want to be able to subtract one number from another.
+
+4. As a user, I want to be able to multiply two numbers together.
+
+5. As a user, I want to be able to divide one number by another.
+
+6. As a user, I want to be able to see the output of the mathematical operation.
+
+7. As a user, I want to be able to clear all operations and start from 0.
+
