@@ -90,4 +90,4 @@ render()
 
  
 
-  // Cited: Collaberated with Anitra Paul, Samantha Beltran, Travis Neto, and assistance from Joshua Miller during Support sessions. 
+  // Cited: Collaberated with Anitra Paul, Samantha Beltra, Travis Neto, and assistance from Joshua Miller during Support sessions. 
