@@ -15,6 +15,19 @@ const displayEl = document.querySelector('.display');
 
 /*----------------------------- Event Listeners -----------------------------*/
 
+numberBtnEls.forEach((numBtnEl) =>{
+  numBtnEl.addEventListener('click', updateNumbers)
+})
+
+operatorBtnEls.forEach((opBtnEl) => {
+  opBtnEl.addEventListener('click', updateOperator)
+})
+
+equalBtnEl.addEventListener('click', updateEqual);
+
+
+render()
+
 /*-------------------------------- Functions --------------------------------*/
 
 // render is updating the textConetnt of display
@@ -73,21 +86,6 @@ const updateEqual = (event) => {
   }
   render()
 }
-
-numberBtnEls.forEach((numBtnEl) =>{
-  numBtnEl.addEventListener('click', updateNumbers)
-})
-
-operatorBtnEls.forEach((opBtnEl) => {
-  opBtnEl.addEventListener('click', updateOperator)
-})
-
-equalBtnEl.addEventListener('click', updateEqual);
-
-
-render()
-
-
  
 
   // Cited: Collaberated with Anitra Paul, Samantha Beltran, Travis Neto, and assistance from Joshua Miller during Support sessions. 
